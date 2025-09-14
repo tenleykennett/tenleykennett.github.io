@@ -1,0 +1,12 @@
+ :root {
+  --indigo: #450084;
+  --thistle: #dacce6;
+  --gainsboro: #dedede;
+  --wheat: #dfd2aa;
+  --oldlace: #f4efe1;
+  --whitesmoke: #f2f2f2;
+}
+
+body {
+    background-color: wheat;
+}
