@@ -1,12 +1,56 @@
- :root {
+
+/* ----------------------- Google Fonts -------------------- */
+@font-face {
+
+    font-family: 'DMSerifDisplay';
+    src: url('/fonts/DMSerifDisplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+:root {
+  --body-font: 'DMSerifDisplay';
+
+
+   /* COLORS */
   --indigo: #450084;
   --thistle: #dacce6;
   --gainsboro: #dedede;
   --wheat: #dfd2aa;
   --oldlace: #f4efe1;
   --whitesmoke: #f2f2f2;
+/* 
+  --background-color: #f8faf7;
+  --nav-color: #eff4ec;
+  --subheader-color: #96b885;
+  --header-color: #6f8578; */
+
+  /* Margins */
+    /* --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem; */
+}
+
+
+head {
+    margin: 1000px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    /* text-shadow: 2px 2px 2px rgb(191, 191, 191); */
 }
 
 body {
-    background-color: wheat;
+    background-color: oldlace;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
+
