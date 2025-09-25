@@ -1,19 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tenley Kennet Portfolio</title>
+    <title>Tenley Kennett Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-    <h1>Hello</h1>
 
-    <div id="circle1"></div>
-    <div id="circle2"></div>
-    <div id="circle3"></div>
-    <div id="circle4"></div>
-    <div id="circle5"></div>
-    
+<body>
+
+    <!-------------------------- Education ---------------------------->
+    <nav class="navbar">
+        <h2 class="nav-title">Tenley Kennett</h2>
+        <ul>
+            <li><a id="home-nav" href="#landing">Home</a></li>
+            <li><a id="education-nav" href="#education">Education</a></li>
+            <li><a id="projects-nav" href="#projects">Projects</a></li>
+            <li><a id="work-experience-nav" href="#work-experience">Experience</a></li>
+            <li><a id="skills-nav" href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <!-------------------------- Landing ---------------------------->
+    <section class="landing-section" id="landing">
+        <div class="landing-container">
+            <img class="tenley-photo" src="images/my_photo.png" alt="Image of Tenley Kennett">
+            <div class="landing-body">
+                <h1>Tenley Kennett</h1>
+                <h2>Junior Computer Science Student</h2>
+                <div class="quick-links">
+
+                    <a href="https://github.com/tenleykennett" target="_blank">
+                        <button class="landing-button"> <i class="fa-brands fa-github"></i></button>
+                    </a>
+
+                    <a href="downloads/TenleyKennettResume.9.25.25.pdf" target="_blank">
+                        <button class="landing-button"><i class="fa-solid fa-file-lines"></i> My Resume</i></button>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/tenleyk" target="_blank">
+                        <button class="landing-button"><i class="fa-brands fa-linkedin-in"></i></button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- <h1>Hello</h1> -->
+    </section>
+
+    <!-------------------------- Education ---------------------------->
+    <section class="education-section" id="education">
+        <div class="education-container">
+            <img class="jmu-photo" src="images/jmu_fall_aerial_view.png" alt="JMU Fall Photo">
+            <div class="education-body">
+                <h1 class="section-title">Education</h1>
+                <div class="education-data">
+                    <h2>James Madison University</h2>
+                    <h3>August 2023 - May 2027</h3>
+                    <p class="education-description">
+                        I am expected to graduate from James Madison University in May 2025 with a B.S. in
+                        <strong>Computer Science</strong>. I will also graduate with a minor in Geographic Information
+                        Systems, where I have developed an interest using remote sensing and satellite imagery as tools
+                        to support environmental analysis. I have also completed a Spanish minor, which has
+                        strengthened my ability to connect with diverse communities and broadened my perspective on
+                        global issues.
+                    </p>
+                    <!-- <h3>Relevant Coursework</h3> -->
+                    <p>
+                        <!-- Calc II, Linear Algebra, Applied Algorithms, Web Development, Software Engineering, Numerical
+                        Analysis -->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- <h4>education</h4> -->
+    </section>
+
+    <!-------------------------- Projects ---------------------------->
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <h1 class="section-title">Projects</h1>
+            <h3 class="section-subtitle">Click any card to learn more!</h3>
+
+            <div class="projects-content">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h2 class="project-title">AssignMint</h2>
+                        <h4 class="project-subtitle">9/25 - present</h3>
+                            <a href="https://www.assignmint.tech/" target="_blank">
+                                <button class="project-interact-button">Visit AssignMint</button>
+                            </a>
+                    </div>
+                    <img class="assignmint-project-photo" src="images/assignmint.png" alt="Assignmint Logo">
+                    <p class="project-description">AssignMint is an assignment tracker built to help students
+                        stay
+                        organized. Over the past two years, my teammate, Raphie, developed the core application,
+                        and I
+                        now contribute by implementing new features and refining the user experience. Today,
+                        AssignMint supports almost 200 active users and continues to grow with a modern,
+                        responsive interface built in React, TypeScript, and Tailwind CSS.</p>
+                </div>
+                </a>
+                <div class="project-card">
+                    <h2 class="project-title">KilowBites</h2>
+                    <h4 class="project-subtitle">Fall 2024</h3>
+                        <!-- <a class="interact-with-project" href="downloads/KiloBites.jar" download></a> -->
+                        <a href="downloads/KiloBites.jar" download target="_blank">
+                            <button class="project-interact-button">Download KiloBites</button>
+                        </a>
+                        <p style="font-size:medium;">use 'java -jar KiloBites.jar' to run it!</p>
+                        <img class="kilowbites-project-photo" src="images/kilowbites-logo.png" alt="KilowBites Logo">
+                        <p class="project-description">KilowBites is a meal planning app where users can create custom
+                            recipes, meals, and ingredient lists. It calculates calories and costs (adjusted for
+                            servings), and includes an interactive recipe mode that guides you step by step. I
+                            collaborated with a five-person team, using Scrum and test-driven development to guide our
+                            work.</p>
+                </div>
+                <!-- <div class="project-card">
+                    <h2 class="project-title">Ripple</h2>
+                    <p class="project-description">343 Project TBD. Small daily actions growing over time</p>
+                </div>
+
+                <div class="project-card">
+                    <h2 class="project-title">VA Flora & Fauna</h2>
+                    <p class="project-description">374 Database TBA</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------- Experience ---------------------------->
+    <section id="work-experience">
+        <!-- <h4>work experience</h4> -->
+        <div class="experience-container">
+            <div class="experience-content">
+                <h1 class="experience-section-title">Work Experience</h1>
+                <div class="experience-titles">
+                    <h2>Web & Outreach Intern</h2>
+                    <h3>Rockingham, VA | January 2025 - Present</h3>
+                </div>
+                <p class="experience-text">
+                    As a Web & Outreach Intern at BrydgeWorks Glass Studio, I designed and launched a new website using
+                    Square
+                    to replace the outdated platform. I prioritized accessibility and clear messaging to promote sales
+                    and
+                    improve customer retention. Within two months of launch, the website generated over $3,500 in sales.
+                    In my ongoing role, I maintain the site by posting new classes and managing content, and I also
+                    create
+                    and distribute a monthly newsletter to 700+ subscribers.
+                </p>
+            </div>
+
+            <div class="experience-content">
+                <div class="experience-titles">
+                    <h2>Study Abroad Operations Intern</h2>
+                    <h3>JMU | February 2024 - Present</h3>
+                </div>
+                <p class="experience-text">
+                    As the Study Abroad Operations Intern and JMU's Center for Global Engagement, I support a cohort of
+                    ~1,000 students each application cycle by updating program information, running analytics reports,
+                    and assisting with day-to-day office operations. I communicate regularly with over 200 program
+                    directors, to ensure
+                    accuracy and consistency in program proposals. I contribute to major initiatives, including helping
+                    set up the Study Abroad Fair
+                    and speaking on panels to promote international opportunities.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-container">
+            <div class="skills-content">
+                <h1 class="section-title">Skills</h1>
+                <div class="skill-cards">
+                    <div class="skill-card">
+                        <h2 class="skill-title">Programming & Databases</h2>
+                        <p class="skill-description">Python, Java, C, JavaScript, HTML, CSS, TypeScript, SQLite,
+                            PostgreSQL, pgAdmin</p>
+                    </div>
+                    <div class="skill-card">
+                        <h2 class="skill-title">Tools & Platforms</h2>
+                        <p class="skill-description">Git/GitHub, Eclipse, VS Code, ArcGIS, n8n</p>
+                    </div>
+                    <div class="skill-card">
+                        <h2 class="skill-title">Development Tools</h2>
+                        <p class="skill-description">Agile (Scrum), Test-Driven Development, Object Oriented Programming
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
+<footer>
+    <!-- background-color: gainsboro; -->
+
+</footer>
+
 </html>
