@@ -66,19 +66,24 @@ html {
 
 h1 {
     margin: 10;
-    font-size: 52px;
+    font-size: xx-large;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: x-large;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: large;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: large;
+}
+
+.fa-icon {
+    font-size: 55px;
+    color: var(--header-color);
 }
 
 strong {
@@ -93,7 +98,7 @@ body {
 p {
     font-family: var(--back-font);
     color: var(--reg-p-color);
-    font-size: 18px;
+    font-size: medium;
 }
 
 
@@ -186,17 +191,17 @@ section {
 }
 
 .nav-title {
-    font-size: 45px;
+    font-size: 30px;
     margin-left: 2rem;
 }
 
 .navbar>ul {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     list-style-type: none;
     padding: 0%;
     margin-left: 1.5%;
-    margin-right: 6%;
+    margin-right: 4%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -206,8 +211,12 @@ section {
 .navbar ul li a {
     text-decoration: none;
     color: var(--nav-bar-text-color);
-    font-size: larger;
+    font-size: medium;
     font-family: 'Poppins-Regular';
+}
+
+.navbar ul li a:active {
+    color: var(--whitesmoke);
 }
 
 /* dropdown container */
@@ -232,7 +241,7 @@ section {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -50%;
     background-color: var(--background-color);
     border-radius: 10px;
     /* rounded edges */
@@ -355,7 +364,7 @@ section {
     align-items: center;
     flex-direction: column;
     min-width: 350px;
-    min-height: 510px;
+    min-height: 420px;
 
     gap: 0.5rem;
     border-style: solid;
@@ -372,8 +381,7 @@ section {
 }
 
 .assignmint-project-photo {
-    width: 150px;
-    height: 100px;
+    height: 75px;
     object-fit: contain;
     /* scale down image to fit, no cropping */
     margin-top: 0.5rem;
@@ -382,10 +390,9 @@ section {
 
 .kilowbites-project-photo {
     width: 150px;
-    height: 100px;
     object-fit: contain;
     /* scale down image to fit, no cropping */
-    /* margin: 0.5rem; */
+    margin: 0.5rem;
 }
 
 
@@ -400,7 +407,7 @@ section {
 
 .interact-with-project:hover {
     color: var(--header-color);
-    font-size: larger;
+    font-size: large;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -421,7 +428,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
     color: var(--header-color);
 }
 
@@ -535,11 +541,11 @@ section {
 }
 
 .skill-title {
-    font-size: 27px;
+    font-size: x-large;
 }
 
 .leadership-role {
-    font-size: 26px;
+    font-size: x-large;
 }
 
 .leadership-org {
@@ -548,7 +554,7 @@ section {
 }
 
 .leadership-dates {
-    font-size: 16px;
+    font-size: medium;
     color: var(--reg-p-color);
 }
 
@@ -560,6 +566,7 @@ section {
     border-radius: 1rem;
     min-width: 150px;
     max-width: 300px;
+    background-color: var(--background-color);
     /* max-height: 150px; */
     min-height: 360px;
     gap: 1rem;
@@ -567,9 +574,9 @@ section {
 
 }
 
-.extra-card:hover {
+/* .extra-card:hover {
     background-color: var(--nav-bar-color);
-}
+} */
 
 /* <!-------------------------- Involvements ----------------------------> */
 #involvements {
@@ -599,7 +606,7 @@ section {
 
 .involvement-sect {
     margin-bottom: 1rem;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 
@@ -808,7 +815,7 @@ video {
 .section-subtitle {
     font-family: 'Poppins';
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 100;
     color: var(--darker-header-color);
     margin-bottom: 1rem;
