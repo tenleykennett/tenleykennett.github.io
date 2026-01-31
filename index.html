@@ -7,36 +7,27 @@
     <title>Tenley Kennett Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="https://fav.farm/🌸">
+
 </head>
 
 <body>
 
-    <!-------------------------- Education ---------------------------->
-    <nav class="navbar">
-        <h2 class="nav-title">Tenley Kennett</h2>
-        <ul>
-            <li><a id="home-nav" href="#landing">Home</a></li>
-            <li><a id="education-nav" href="#education">Education</a></li>
-            <li><a id="projects-nav" href="#projects">Projects</a></li>
-            <li><a id="work-experience-nav" href="#work-experience">Experience</a></li>
-            <li><a id="skills-nav" href="#skills">Skills</a></li>
-        </ul>
-    </nav>
+    <div id="header"></div>
 
     <!-------------------------- Landing ---------------------------->
     <section class="landing-section" id="landing">
         <div class="landing-container">
-            <img class="tenley-photo" src="images/my_photo.png" alt="Image of Tenley Kennett">
             <div class="landing-body">
                 <h1>Tenley Kennett</h1>
                 <h2>Junior Computer Science Student</h2>
                 <div class="quick-links">
 
-                    <a href="https://github.com/tenleykennett" target="_blank">
+                    <a href="https://github.com/tenleyk" target="_blank">
                         <button class="landing-button"> <i class="fa-brands fa-github"></i></button>
                     </a>
 
-                    <a href="downloads/TenleyKennettResume.9.25.25.pdf" target="_blank">
+                    <a href="downloads/Tenley_Kennett_Resume_Jan.pdf" target="_blank">
                         <button class="landing-button"><i class="fa-solid fa-file-lines"></i> My Resume</i></button>
                     </a>
 
@@ -45,6 +36,7 @@
                     </a>
                 </div>
             </div>
+            <img class="tenley-photo" src="images/my_photo.png" alt="Image of Tenley Kennett">
 
         </div>
         <!-- <h1>Hello</h1> -->
@@ -60,9 +52,10 @@
                     <h2>James Madison University</h2>
                     <h3>August 2023 - May 2027</h3>
                     <p class="education-description">
-                        I am expected to graduate from James Madison University in May 2025 with a B.S. in
-                        <strong>Computer Science</strong>. I will also graduate with a minor in Geographic Information
-                        Systems, where I have developed an interest using remote sensing and satellite imagery as tools
+                        I am expected to graduate from James Madison University in May 2027 with a B.S. in
+                        <strong>Computer Science</strong>. I will graduate with a minor in <strong>Geography</strong>,
+                        where I have
+                        developed an interest using remote sensing and satellite imagery as tools
                         to support environmental analysis. I have also completed a Spanish minor, which has
                         strengthened my ability to connect with diverse communities and broadened my perspective on
                         global issues.
@@ -82,35 +75,73 @@
     <section id="projects" class="projects-section">
         <div class="projects-container">
             <h1 class="section-title">Projects</h1>
-            <h3 class="section-subtitle">Click any card to learn more!</h3>
+            <!-- <h3 class="section-subtitle">Click the button on any card to learn more!</h3> -->
 
             <div class="projects-content">
                 <div class="project-card">
                     <div class="project-info">
                         <h2 class="project-title">AssignMint</h2>
-                        <h4 class="project-subtitle">9/25 - present</h3>
-                            <a href="https://www.assignmint.tech/" target="_blank">
-                                <button class="project-interact-button">Visit AssignMint</button>
-                            </a>
+                        <h4 class="project-subtitle">Fall 2025 – Spring 2026</h4>
+                        <a href="https://www.assignmint.tech/" target="_blank">
+                            <button class="project-interact-button">Visit AssignMint</button>
+                        </a>
                     </div>
-                    <img class="assignmint-project-photo" src="images/assignmint.png" alt="Assignmint Logo">
-                    <p class="project-description">AssignMint is an assignment tracker built to help students
-                        stay
-                        organized. Over the past two years, my teammate, Raphie, developed the core application,
-                        and I
-                        now contribute by implementing new features and refining the user experience. Today,
-                        AssignMint supports almost 200 active users and continues to grow with a modern,
-                        responsive interface built in React, TypeScript, and Tailwind CSS.</p>
+                    <img class="assignmint-project-photo" src="images/assignmint.png" alt="AssignMint Logo">
+                    <p class="project-description">
+                        AssignMint is an assignment tracker designed to help students stay organized.
+                        I contributed to the project by implementing new features and refining the user experience
+                        alongside a teammate who developed the core application. During my involvement,
+                        AssignMint supported nearly 200 active users and featured a modern, responsive interface
+                        built with React, TypeScript, and Tailwind CSS.
+                    </p>
                 </div>
-                </a>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h2 class="project-title">Virginia Flora & Fauna Database</h2>
+                        <h4 class="project-subtitle">Fall 2025</h4>
+                        <h4 class="project-subtitle">Academic Project</h4>
+                    </div>
+
+                    <div class="project-placeholder">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <p class="project-description">
+                        My team & I designed and implemented a relational database to store and manage information on
+                        Virginia’s native flora and fauna. The project focused on database schema design and efficient
+                        querying using SQL. I worked with PostgreSQL and pgAdmin
+                        to create tables, relationships, and queries that support filtering by different parameters such
+                        as species, habitat, and native status.
+                    </p>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h2 class="project-title">Ripple</h2>
+                        <h4 class="project-subtitle">Fall 2025</h4>
+                        <h4 class="project-subtitle">Academic Project</h4>
+                    </div>
+
+                    <div class="project-placeholder">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <p class="project-description">
+                        Ripple is an online bullet journal designed to help users track daily habits, log journal
+                        entries, and visualize moods on a calendar grid. I implemented the calendar-based mood
+                        tracking feature, allowing users to assign an overall feeling for each day and quickly see
+                        trends over time. The project emphasizes user experience and interactive data visualization,
+                        and was built using JavaScript, HTML, and CSS.
+                    </p>
+                </div>
+
                 <div class="project-card">
                     <h2 class="project-title">KilowBites</h2>
                     <h4 class="project-subtitle">Fall 2024</h3>
-                        <!-- <a class="interact-with-project" href="downloads/KiloBites.jar" download></a> -->
                         <a href="downloads/KiloBites.jar" download target="_blank">
                             <button class="project-interact-button">Download KiloBites</button>
                         </a>
-                        <p style="font-size:medium;">use 'java -jar KiloBites.jar' to run it!</p>
+                        <p>use 'java -jar KiloBites.jar' to run it!</p>
                         <img class="kilowbites-project-photo" src="images/kilowbites-logo.png" alt="KilowBites Logo">
                         <p class="project-description">KilowBites is a meal planning app where users can create custom
                             recipes, meals, and ingredient lists. It calculates calories and costs (adjusted for
@@ -118,15 +149,6 @@
                             collaborated with a five-person team, using Scrum and test-driven development to guide our
                             work.</p>
                 </div>
-                <!-- <div class="project-card">
-                    <h2 class="project-title">Ripple</h2>
-                    <p class="project-description">343 Project TBD. Small daily actions growing over time</p>
-                </div>
-
-                <div class="project-card">
-                    <h2 class="project-title">VA Flora & Fauna</h2>
-                    <p class="project-description">374 Database TBA</p>
-                </div> -->
             </div>
         </div>
     </section>
@@ -135,16 +157,32 @@
     <section id="work-experience">
         <!-- <h4>work experience</h4> -->
         <div class="experience-container">
+            <h1 class="section-title">Work Experience</h1>
+
             <div class="experience-content">
-                <h1 class="experience-section-title">Work Experience</h1>
                 <div class="experience-titles">
-                    <h2>Web & Outreach Intern</h2>
-                    <h3>Rockingham, VA | January 2025 - Present</h3>
+                    <h2>Lead Computer Science Ambassador</h2>
+                    <h3>James Madison University | August 2025 – Present</h3>
                 </div>
                 <p class="experience-text">
-                    As a Web & Outreach Intern at BrydgeWorks Glass Studio, I designed and launched a new website using
+                    As an Ambassador for JMU’s Computer Science program, I lead tours for prospective students
+                    and their families, representing the department at university and outreach events.
+                    I am also the department's Social Media Coordinator, where I develop content strategy,
+                    manage outreach, and strengthen the department’s digital presence.
+                    Through this role, I’ve built strong communication, leadership, and public engagement skills.
+                </p>
+            </div>
+
+            <div class="experience-content">
+                <div class="experience-titles">
+                    <h2>Web Development Intern</h2>
+                    <h3>BrydgeWorks Glass Studio | January 2025 - Present</h3>
+                </div>
+                <p class="experience-text">
+                    I designed and launched a new website using
                     Square
-                    to replace the outdated platform. I prioritized accessibility and clear messaging to promote sales
+                    to replace the outdated platform for a local stained glass studio. I prioritized accessibility and
+                    clear messaging to promote sales
                     and
                     improve customer retention. Within two months of launch, the website generated over $3,500 in sales.
                     In my ongoing role, I maintain the site by posting new classes and managing content, and I also
@@ -156,7 +194,7 @@
             <div class="experience-content">
                 <div class="experience-titles">
                     <h2>Study Abroad Operations Intern</h2>
-                    <h3>JMU | February 2024 - Present</h3>
+                    <h3>James Madison University | February 2024 - Present</h3>
                 </div>
                 <p class="experience-text">
                     As the Study Abroad Operations Intern and JMU's Center for Global Engagement, I support a cohort of
@@ -169,22 +207,36 @@
                 </p>
             </div>
 
+            <div class="experience-content">
+                <div class="experience-titles">
+                    <h2>Team Member/Trainer</h2>
+                    <h3>Target Inc. | February 2023 - August 2024</h3>
+                </div>
+                <p class="experience-text">
+                    I optimized inventory management by efficiently locating and retrieving items from backroom storage
+                    using internal tracking systems. I improved overall store efficiency through accurate and timely
+                    task execution, and organized inventory to enhance accessibility, consistently meeting or exceeding
+                    daily pull goals.
+                </p>
+            </div>
         </div>
     </section>
 
+    <!-------------------------- Skills ---------------------------->
     <section id="skills">
         <div class="skills-container">
             <div class="skills-content">
                 <h1 class="section-title">Skills</h1>
                 <div class="skill-cards">
                     <div class="skill-card">
-                        <h2 class="skill-title">Programming & Databases</h2>
-                        <p class="skill-description">Python, Java, C, JavaScript, HTML, CSS, TypeScript, SQLite,
-                            PostgreSQL, pgAdmin</p>
+                        <h2 class="skill-title">Programming Languages</h2>
+                        <p class="skill-description">Python, Java, C, JavaScript, Ruby, HTML, CSS, SQLite,
+                            PostgreSQL</p>
                     </div>
                     <div class="skill-card">
                         <h2 class="skill-title">Tools & Platforms</h2>
-                        <p class="skill-description">Git/GitHub, Eclipse, VS Code, ArcGIS, n8n</p>
+                        <p class="skill-description">Git/GitHub, Eclipse, VS Code, ArcGIS, pgAdmin, n8n, Adobe Creative
+                            Suite, Microsoft Office</p>
                     </div>
                     <div class="skill-card">
                         <h2 class="skill-title">Development Tools</h2>
@@ -196,11 +248,75 @@
         </div>
     </section>
 
+    <!-------------------------- Involvements ---------------------------->
+    <section id="involvements">
+        <div class="involvements-container">
+            <div class="involvements-content">
+                <h1 class="section-title">Involvements</h1>
+                <div class="involvement-chunk">
+                    <h2 class="involvement-sect">Extracurriculars</h2>
+                    <div class="involvement-cards">
+                        <div class="extra-card">
+                            <h2 class="skill-title">Women in Technology</h2>
+                            <h3><em>Public Relations Chair</em></h3>
+                            <h4>January 2024 - Present</h4>
+                            <p class="skill-description">Women in Technology is a student organization that creates a
+                                supportive community for women in tech through mentorship and
+                                networking opportunities. I also manage and curate their Instagram to share events and
+                                highlight members.</p>
+                        </div>
+                        <div class="extra-card">
+                            <h2 class="skill-title">Theta Tau</h2>
+                            <h3><em>Eta Zeta Chapter</em></h3>
+                            <h4>August 2023 - Present</h4>
+                            <p class="skill-description">As a member of Theta Tau, a professional engineering
+                                fraternity, I take part in weekly meetings, service projects, and professional
+                                development events that promote growth community among members.
+                            </p>
+                        </div>
+                        <div class="extra-card">
+                            <h2 class="skill-title">Phi Sigma Sigma</h2>
+                            <h3><em>Iota Chi Chapter</em></h3>
+                            <h4>September 2024 - December 2025</h4>
+                            <p class="skill-description"> Member of Phi Sigma Sigma, a sorority focused on community,
+                                sisterhood, and personal growth.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leadership -->
+                <div class="involvement-chunk">
+                    <h2 class="involvement-sect">Volunteering</h2>
+                    <div class="involvement-cards">
+                        <div class="extra-card">
+                            <h2 class="skill-title">madiSTEM Cohort Leader
+                            </h2>
+                            <h4>March 2024 & 2025</h4>
+                            <p class="skill-description">madiSTEM (Making A Difference In Science, Technology,
+                                Engineering, and Mathematics) is a one-day STEM conference at JMU for girls in grades
+                                6–8. I led a cohort of students throughout the day, providing guidance and support
+                                during workshops, and assisted with setting up and breaking down the event.</p>
+                        </div>
+                        <div class="extra-card">
+                            <h2 class="skill-title">DIGITAL Cohort Leader
+                            </h2>
+                            <h4>November 2023</h4>
+                            <p class="skill-description">DIGITAL (Dukes Inspiring Girls Into Technology Across Limits)
+                                is a one-day STEM event hosted by JMU’s Women In Technology, open to girls in grades
+                                9–12. As a workshop leader, I guided a cohort of students throughout the day, assisting
+                                them with hands-on activities and supporting their learning in various workshops.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer"></div>
+
+    <script src="include.js"></script>
 </body>
 
-<footer>
-    <!-- background-color: gainsboro; -->
-
-</footer>
 
 </html>
