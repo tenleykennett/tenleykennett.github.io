@@ -64,6 +64,7 @@ html {
     margin: 0%;
 }
 
+
 h1 {
     margin: 10;
     font-size: xx-large;
@@ -93,6 +94,7 @@ strong {
 body {
     font-family: var(--main-font);
     background-color: var(--nav-bar-color);
+    padding-top: 60px;
 }
 
 p {
@@ -208,18 +210,28 @@ section {
 
 /* <!-------------------------- NavBar ----------------------------> */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
+    z-index: 1000;
+    padding: 0.75rem;
+    padding-right: 3rem;
+    background-color: var(--nav-bar-color);
     justify-content: space-between;
-    /* pushes items to edges */
     align-items: center;
-    /* padding: 0 0rem; */
     color: var(--nav-bar-text-color);
-    margin: 1rem;
+    /* margin: 1rem;
+    margin-right: 3rem; */
+}
+
+#art-button {
     margin-right: 3rem;
 }
 
 .nav-title {
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 2rem;
 }
 
@@ -985,3 +997,23 @@ a:hover {
 .smallerimg {
     max-width: 550px;
 }  
+
+
+.footer-button {
+        background-color: var(--button-color);
+    color: var(--nav-bar-text-color);
+    font-family: var(--back-font);
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    cursor: pointer;
+
+}
