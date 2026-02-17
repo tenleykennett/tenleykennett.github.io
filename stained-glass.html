@@ -7,9 +7,13 @@
     <title>Tenley Kennett — Stained Glass</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-        <link rel="icon" href="https://fav.farm/🎨">
+    <link rel="icon" href="https://fav.farm/🎨">
 
 </head>
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
 
 <body>
     <div id="header"></div>
@@ -20,7 +24,7 @@
             <h3 class="section-subtitle">I have been creating stained glass since 2024 at a local studio in Virginia. I
                 fell in love with the art after my very first class there, and I got so involved, that I actually remade
                 their website! You can find that by clicking
-                <a href="https://www.brydgeworksglass.com/" target="_blank">here!</a>  ;)
+                <a href="https://www.brydgeworksglass.com/" target="_blank">here!</a> ;)
             </h3>
 
             <div class="art-gallery">
@@ -38,6 +42,41 @@
     </section>
     <div id="footer"></div>
     <script src="include.js"></script>
+    <script>
+        const galleryImages = document.querySelectorAll(".art-gallery img");
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        const closeBtn = document.querySelector(".close");
+
+        galleryImages.forEach(img => {
+            img.addEventListener("click", () => {
+                lightbox.style.display = "block";
+                lightboxImg.src = img.src;
+            });
+        });
+
+        function closeLightbox() {
+            lightbox.style.display = "none";
+        }
+
+        closeBtn.addEventListener("click", closeLightbox);
+
+        lightbox.addEventListener("click", (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        /* ESC key support */
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && lightbox.style.display === "block") {
+                closeLightbox();
+            }
+        });
+    </script>
+
+    </script>
+
 </body>
 
 </html>
