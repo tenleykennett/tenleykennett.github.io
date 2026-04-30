@@ -42,7 +42,7 @@ body {
     --whitesmoke: #f2f2f2;
 
     /* Colors */
-    --background-color: rgb(255, 251, 243);
+    --background-color: rgb(255, 255, 255);
     --alt-background-color: rgb(255, 247, 231);
     --nav-color: #393d3f;
     --nav-bar-color: rgb(221, 234, 243);
@@ -431,6 +431,7 @@ section {
     margin-right: 10rem;
     margin-top: 4%;
     margin-bottom: 4%;
+    max-width: 65rem;
 }
 
 .experience-content {
@@ -480,6 +481,8 @@ section {
     gap: 2rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
+    max-width: 70rem;
+
 }
 
 .skill-cards {
