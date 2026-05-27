@@ -761,7 +761,7 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 .map-gallery {
@@ -821,12 +821,18 @@ video {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .map-image img {
     width: auto;
     height: 35rem;
+    display: block;
+    border-radius: 6px;
+}
+
+.detail-image img {
+    width: 35rem;
     display: block;
     border-radius: 6px;
 }

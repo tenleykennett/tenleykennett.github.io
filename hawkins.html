@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenley Kennett</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://fav.farm/🗺️">
+</head>
+
+<body class="map-page-bg">
+    <div id="header"></div>
+
+    <section class="map-page">
+        <div class="map-container">
+
+            <div class="back-link">
+                <a href="maps.html">← Back to Maps</a>
+            </div>
+
+            <h1 class="section-title">Stranger Things Fan Map</h1>
+
+            <div class="map-image">
+                <img src="images/maps/hawkins.png" alt="Fictional map of Hawkins, Indiana">
+            </div>
+
+            <div class="map-meta">
+                <div class="map-meta-item">
+                    <label>Tools Used</label>
+                    <p>ArcGIS Pro, Adobe Illustrator</p>
+                </div>
+                <div class="map-meta-item">
+                    <label>Year</label>
+                    <p>2026</p>
+                </div>
+                <div class="map-meta-item map-meta-item--sources">
+                    <label>Data Sources</label>
+                    <p>
+                        <a class="plain-link"
+                            href="https://strangerthings.fandom.com/wiki/Map:Hawkins_(KLumence_version)?"
+                            target="_blank">Stranger Things Wiki</a>
+                    </p>
+                    <p>
+                        <a class="plain-link"
+                            href="https://static.wikia.nocookie.net/strangerthings8338/images/6/64/Hawkins_map_-_Worlds_Upside_Down.jpg/revision/latest?cb=20220825123136"
+                            target="_blank">Hopper's Map</a>
+                    </p>
+                </div>
+            </div>
+
+            <p class="map-description">
+                This was the final project I created for my Cartography and Geospatial Visualization course. The
+                assignment was to design an original map that combined strong visual
+                storytelling with something you're passionate about. I chose to recreate the fictional town of Hawkins
+                from the TV show Stranger Things because
+                I had always wondered how the town would realistically be laid out geographically.
+            </p>
+            <p class="map-description">
+                This became one of the most challenging maps I have ever worked on. Since Hawkins is fictional,
+                continuity throughout the show is not always perfectly consistent. Street names, landmarks, and
+                distances often change slightly between episodes or seasons. For example, the show references Randolph
+                Lane, Randolph Road, and Randolph Avenue at different points, making it difficult to determine whether
+                these were continuity errors, alternate names, or entirely separate streets. Because of this, much of
+                the road network and spatial organization had to be carefully inferred from dialogue, camera shots, and
+                lots of help from the Stranger Things Wiki.
+            </p>
+
+            <p class="map-description">
+                Fortunately, Hawkins is actually based on the real town of Marion. In the first season of Stranger
+                Things, Hopper is shown drawing on a county map of Hawkins. A scanned version of this map is available
+                online, which became the starting point for my project. First, I georeferenced Hopper’s map onto Marion
+                in order to align the fictional town with a real geographic base. From there, I brought all of my
+                shapefile data into Adobe Illustrator, which is where I completed the majority of the cartographic and
+                visual design work.
+            </p>
+            
+            <div class="detail-image">
+                <img src="images/maps/stranger-things/scale.png" alt="Fictional map of Hawkins, Indiana">
+            </div>
+            <div class="detail-image">
+                <img src="images/maps/stranger-things/inset.png" alt="Fictional map of Hawkins, Indiana">
+            </div>
+            <div class="detail-image">
+                <img src="images/maps/stranger-things/north.png" alt="Fictional map of Hawkins, Indiana">
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="include.js"></script>
+
+</body>
+
+</html>
