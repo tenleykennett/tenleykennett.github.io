@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenley Kennett</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://fav.farm/🗺️">
+</head>
+
+<body class="map-page-bg">
+    <div id="header"></div>
+
+    <section class="map-page">
+        <div class="map-container">
+
+            <div class="back-link">
+                <a href="maps.html">← Back to Maps</a>
+            </div>
+
+            <h1 class="section-title">Minecraft-Inspired Map of Hawaii</h1>
+
+            <div class="map-image">
+                <img src="images/maps/minecraft_hi.png" alt="Minecraft-Style Map of Hawaii">
+            </div>
+
+            <div class="map-meta">
+                <div class="map-meta-item">
+                    <label>Tools Used</label>
+                    <p>ArcGIS Pro, Adobe Illustrator</p>
+                </div>
+                <div class="map-meta-item">
+                    <label>Year</label>
+                    <p>2026</p>
+                </div>
+
+                <div class="map-meta-item map-meta-item--sources">
+                    <label>Data Sources</label>
+                    <p>
+                        <a class="plain-link"
+                            href="https://data.usgs.gov/datacatalog/data/USGS:59245462e4b0b7ff9fb27248"
+                            target="_blank">USGS National Land Cover Database</a>
+                    </p>
+                    <p>
+                        <a class="plain-link" href="https://www.ncei.noaa.gov/products/bathymetry" target="_blank">NOAA
+                            National Centers for Environmental Information Bathymetry</a>
+                    </p>
+
+                </div>
+            </div>
+
+            <p class="map-description">
+                I love creating maps of my Minecraft worlds, so I had the idea to create a Minecraft
+                style map of my world.
+            </p>
+            <p class="map-description">
+                I wanted to map an island landscape so I could play with bathymetric symbology, and
+                Hawaii was a great fit.
+                I used tools like Zonal Statistics, Focal Statistics, and Reclassify to simplify the terrain, then spent
+                some time finding a color palette that lent itself to the game's style.
+            </p>
+        </div>
+    </section>
+    <div id="footer"></div>
+
+    <script src="include.js"></script>
+
+</body>
+
+</html>
