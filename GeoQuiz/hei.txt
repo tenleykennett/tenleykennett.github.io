@@ -1,0 +1,3 @@
+current issues:
+
+come countries are not centered b/c of territories (ex. netherlands, russia)
